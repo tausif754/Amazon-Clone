@@ -21,6 +21,15 @@ nav {
   padding: 10px 20px;
   color: #fff;
 }
+/* hover border */
+.border {
+  border: 1.5px solid transparent;
+  padding: 10px;
+  cursor: pointer;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
 
 .nav-country {
   display: flex;
